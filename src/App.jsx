@@ -5,6 +5,7 @@ import Project from "./Componant/Project/Project"
 import Skill from "./Componant/Skill/Skill"
 import './App.css'
 import { ToastContainer } from 'react-toastify';
+import Footer from "./Componant/Footer/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Skill></Skill>
         <Project></Project>
         <Contact></Contact>
+        <Footer></Footer>
         <ToastContainer />
       </div>
     </>

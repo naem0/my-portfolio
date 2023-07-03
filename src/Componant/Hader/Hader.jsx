@@ -13,8 +13,7 @@ const Hader = () => {
                 <div className="flex gap-4 my-4 text-2xl text-indigo-600">
                     <a href="https://github.com/naem0"><FaGithub></FaGithub></a>
                     <a href="https://www.linkedin.com/in/md-naem/"><FaLinkedin></FaLinkedin></a>
-                    <a href=""><FaInstagram></FaInstagram></a>
-                    <a href=""><FaEnvelope></FaEnvelope></a>
+                    <a href="mmnayeem408@gmail.com"><FaEnvelope></FaEnvelope></a>
                 </div>
                 <button className="text-white px-4 py-2 rounded-lg bg-indigo-600 font-semibold">Contact Me</button>
                 <a href={resume} download='Resume' className="text-white px-4 py-2 rounded-lg bg-indigo-600 font-semibold ms-8 inline-flex gap-2"><samp>Resume</samp> <FaDownload></FaDownload></a>
